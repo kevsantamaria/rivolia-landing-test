@@ -20,7 +20,7 @@ export default function FastCoffeeSection() {
           </h4>
         </Reveal>
 
-        <Reveal className="relative flex justify-end" direction="right" delay={0.1}>
+        <Reveal className="relative flex justify-end" delay={0.1}>
           <Image
             src={cupImage}
             alt="Taza de café Rivolia"

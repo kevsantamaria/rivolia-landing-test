@@ -55,14 +55,12 @@ export default function Hero() {
           </div>
         </Reveal>
 
-        <Reveal direction="right" delay={0.12}>
-          <Image
-            src={heroImage}
-            loading="eager"
-            alt="Rivolia - Café real, sin máquina, sin complicaciones"
-            className="h-auto max-w-full object-cover"
-          />
-        </Reveal>
+        <Image
+          src={heroImage}
+          loading="eager"
+          alt="Rivolia - Café real, sin máquina, sin complicaciones"
+          className="h-auto max-w-full object-cover"
+        />
       </div>
     </section>
   )

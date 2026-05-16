@@ -62,11 +62,7 @@ export default function ComparisonSection() {
             </Reveal>
           </div>
 
-          <Reveal
-            className="hidden justify-center lg:order-3 lg:flex lg:justify-end"
-            direction="right"
-            delay={0.12}
-          >
+          <Reveal className="hidden justify-center lg:order-3 lg:flex lg:justify-end" delay={0.12}>
             <Image
               src={instantCoffeeImage}
               alt="Café instantáneo con frasco y taza"
