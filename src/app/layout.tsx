@@ -16,7 +16,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: 'Rivolia - Café real, sin máquina, sin complicaciones',
   description:
-    'La forma más simple de formar café en cualquier lugar. Café filtrado fino, en un formato práctico. Diferentes formatos para cada momento.',
+    'La forma más simple de tomar café en cualquier lugar. Café filtrado fino, en un formato práctico. Diferentes formatos para cada momento.',
 }
 
 export default function RootLayout({

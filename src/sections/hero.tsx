@@ -48,7 +48,7 @@ export default function Hero() {
               <div className="flex flex-col items-center">
                 <PrimaryButton text="Comprar ahora" />
                 <p className="text-secondary mt-2 text-sm font-medium tracking-widest">
-                  Desde $1 por taza
+                  Desde $3 por taza
                 </p>
               </div>
             </div>

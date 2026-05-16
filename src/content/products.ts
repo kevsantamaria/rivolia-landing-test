@@ -7,31 +7,31 @@ export const products = [
   {
     image: productImage1,
     title: 'Sachet Individual',
-    description: 'Ideal para probar los diferentes sabores del café',
+    description: 'Ideal para probar. Uso ocasional',
     buttonLabel: 'Comprar',
   },
   {
     image: productImage2,
     title: 'Sachet Rivolia Especialidad',
-    description: 'Ideal premium para acomodarnos en el mostrador',
+    description: 'Ideal premium. Notas especiales',
     buttonLabel: 'Comprar',
   },
   {
     image: productImage3,
     title: 'Pack 10 Sachets',
-    description: 'Use frecuente y accesible Para comer o llevar',
+    description: 'Uso frecuente. Más práctico',
     buttonLabel: 'Comprar',
   },
   {
     image: productImage4,
     title: 'Pack 10 Sachets',
-    description: 'Molienda en grano Para cava o máquina',
+    description: 'Más elegido. Mejor precio por taza. Ideal para uso diario',
     buttonLabel: 'Comprar',
   },
   {
     image: productImage1,
     title: 'Café Rivolia 1KG',
-    description: 'Molido en grano Para cava o máquina',
+    description: 'Molido o en grano. Para casa o negocio',
     buttonLabel: 'Comprar',
   },
 ]
