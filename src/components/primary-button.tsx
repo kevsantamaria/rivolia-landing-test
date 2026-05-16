@@ -13,7 +13,7 @@ const buttonVariants = {
 export default function PrimaryButton({ text, variant = 'secondary' }: PrimaryButtonProps) {
   return (
     <button
-      className={`inline-flex w-full items-center justify-center rounded font-bold tracking-widest uppercase transition-all duration-200 active:scale-[0.97] ${buttonVariants[variant]}`}
+      className={`inline-flex w-full items-center justify-center rounded font-bold tracking-widest text-nowrap uppercase transition-all duration-200 active:scale-[0.97] ${buttonVariants[variant]}`}
     >
       {text}
     </button>

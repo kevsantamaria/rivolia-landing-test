@@ -92,8 +92,6 @@ export default function ProductSection() {
           className="flex cursor-grab active:cursor-grabbing"
           style={{
             x,
-            paddingLeft: sidePadding,
-            paddingRight: sidePadding,
             gap: `${CARD_GAP}px`,
           }}
           drag="x"
