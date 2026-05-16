@@ -1,4 +1,4 @@
-import { Header } from '@/sections/header'
+import Header from '@/sections/header'
 import type { Metadata } from 'next'
 import { Cinzel, Montserrat } from 'next/font/google'
 import './globals.css'

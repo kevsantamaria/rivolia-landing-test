@@ -5,7 +5,7 @@ import { motion } from 'motion/react'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
-export const Header = () => {
+export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('home')
 
