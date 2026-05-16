@@ -87,7 +87,7 @@ export default function ProductSection() {
         ))}
       </div>
 
-      <div className="relative overflow-hidden lg:hidden">
+      <div className="relative max-w-full overflow-hidden lg:hidden">
         <motion.div
           className="flex cursor-grab active:cursor-grabbing"
           style={{
@@ -132,7 +132,7 @@ export default function ProductSection() {
           }}
           disabled={current === 0}
           aria-label="Anterior"
-          className="absolute top-1/2 left-4 z-10 flex h-9 w-9 -translate-x-3 -translate-y-1/2 items-center justify-center rounded-full bg-white text-gray-700 shadow-md transition hover:bg-gray-100 disabled:opacity-30"
+          className="- absolute top-1/2 left-4 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-white text-gray-700 shadow-md transition hover:bg-gray-100 disabled:opacity-30"
         >
           ‹
         </button>
@@ -143,7 +143,7 @@ export default function ProductSection() {
           }}
           disabled={current === total - 1}
           aria-label="Siguiente"
-          className="absolute top-1/2 right-4 z-10 flex h-9 w-9 translate-x-3 -translate-y-1/2 items-center justify-center rounded-full bg-white text-gray-700 shadow-md transition hover:bg-gray-100 disabled:opacity-30"
+          className="absolute top-1/2 right-4 z-10 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full bg-white text-gray-700 shadow-md transition hover:bg-gray-100 disabled:opacity-30"
         >
           ›
         </button>
