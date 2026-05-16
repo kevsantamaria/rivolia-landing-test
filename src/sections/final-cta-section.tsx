@@ -17,15 +17,16 @@ export default function FinalCtaSection() {
               para probar Rivolia
             </h2>
           </div>
+          <div className="flex flex-col items-stretch">
+            <div className="mx-auto flex w-full max-w-[260px] flex-col items-stretch gap-4">
+              <PrimaryButton text="Comprar ahora" />
+              <PrimaryButton text="Comprar pack 20" variant="primary" />
+            </div>
 
-          <div className="mx-auto mb-4 flex w-full max-w-[260px] flex-col items-stretch gap-4">
-            <PrimaryButton text="Comprar ahora" />
-            <PrimaryButton text="Comprar pack 20" variant="primary" />
+            <span className="text-primary mt-8 text-center text-sm font-bold tracking-wide uppercase">
+              <Flame className="inline-block" /> Últimos packs disponibles
+            </span>
           </div>
-
-          <span className="text-primary mt-8 text-sm font-bold tracking-wide uppercase">
-            <Flame className="inline-block" /> Últimos packs disponibles
-          </span>
         </Reveal>
 
         <Reveal className="flex justify-center md:justify-end" direction="up" delay={0.1}>
