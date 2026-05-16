@@ -13,7 +13,7 @@ export default function ComparisonSection() {
         <div className="flex flex-col items-center justify-center gap-8 lg:flex-row lg:gap-0">
           <Reveal
             className="hidden justify-center lg:order-1 lg:flex lg:justify-start"
-            direction="left"
+            direction="up"
           >
             <Image
               src={rivoliaImage}

@@ -8,7 +8,7 @@ export default function FinalCtaSection() {
   return (
     <section className="bg-background px-6 py-16 lg:px-16 lg:py-20">
       <div className="mx-auto grid max-w-6xl items-center justify-center gap-10 md:grid-cols-2">
-        <Reveal className="text-center md:text-left" direction="left">
+        <Reveal className="text-center md:text-left" direction="up">
           <div className="mb-6 flex items-center gap-4 lg:gap-6">
             <span aria-hidden="true" className="bg-secondary/50 hidden h-px flex-1 md:block" />
             <h2 className="text-secondary mb-6 text-2xl leading-tight font-bold uppercase sm:text-3xl md:text-3xl">
@@ -28,7 +28,7 @@ export default function FinalCtaSection() {
           </span>
         </Reveal>
 
-        <Reveal className="flex justify-center md:justify-end" direction="right" delay={0.1}>
+        <Reveal className="flex justify-center md:justify-end" direction="up" delay={0.1}>
           <Image
             src={finalCtaProduct}
             alt="Pack de café Rivolia con taza"

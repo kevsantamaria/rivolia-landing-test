@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section className="flex min-h-screen items-center py-16 md:pl-24 lg:py-20">
       <div className="flex w-full flex-col items-center justify-center xl:flex-row xl:justify-between">
-        <Reveal className="text-center md:text-left" direction="left">
+        <Reveal className="text-center md:text-left">
           <p className="text-primary 3xl:text-[61pt] mb-6 text-4xl font-bold uppercase md:mb-14 md:text-7xl">
             RIVOLIA
           </p>
@@ -55,12 +55,14 @@ export default function Hero() {
           </div>
         </Reveal>
 
-        <Image
-          src={heroImage}
-          loading="eager"
-          alt="Rivolia - Café real, sin máquina, sin complicaciones"
-          className="h-auto max-w-full object-cover"
-        />
+        <Reveal delay={0.12}>
+          <Image
+            src={heroImage}
+            loading="eager"
+            alt="Rivolia - Café real, sin máquina, sin complicaciones"
+            className="h-auto max-w-full object-cover"
+          />
+        </Reveal>
       </div>
     </section>
   )

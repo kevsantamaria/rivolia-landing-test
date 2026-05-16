@@ -10,7 +10,7 @@ export default function MoreWaysSection() {
         <SectionHeader text="Más formas de disfrutar Rivolia" />
       </div>
 
-      <Reveal className="relative mt-8 sm:mt-10 lg:mt-12" direction="none">
+      <Reveal className="relative mt-8 sm:mt-10 lg:mt-12">
         <Image
           src={coffeeBeansImage}
           alt="Granos de café, canela y especias"

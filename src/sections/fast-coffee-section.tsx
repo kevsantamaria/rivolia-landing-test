@@ -6,7 +6,7 @@ export default function FastCoffeeSection() {
   return (
     <section className="flex flex-col py-20 text-center sm:text-start lg:py-28">
       <div className="mx-auto grid max-w-7xl items-center gap-8 md:grid-cols-[1fr_0.85fr]">
-        <Reveal className="z-10" direction="left">
+        <Reveal className="z-10" direction="up">
           <h2 className="text-primary text-2xl leading-tight font-bold uppercase md:text-6xl">
             No es café rápido.
             <br />
