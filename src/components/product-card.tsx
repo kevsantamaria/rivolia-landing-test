@@ -16,7 +16,6 @@ export function ProductCard({ image, title, description, buttonLabel }: ProductC
           src={image}
           alt={title}
           className="h-full w-auto object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105"
-          sizes="(min-width: 1024px) 20vw, 50vw"
         />
       </header>
 
