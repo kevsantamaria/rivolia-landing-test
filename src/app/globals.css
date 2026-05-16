@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #a61e22;
+  --color-secondary: #4e2f2b;
+  --color-background: #f5f0eb;
+  --color-foreground: #171717;
+
+  --color-button-primary: #a61e22;
+  --color-button-primary-hover: #651410;
+
+  --color-button-active: #af8846;
+
+  --color-button-secondary: #4e2f2b;
+  --color-button-secondary-hover: #271110;
+
+  --color-card-button: #cfc3b5;
+
+  --color-whatsapp-button: #4e2f2b;
+
+  --font-montserrat: var(--font-montserrat);
+  --font-cinzel: var(--font-cinzel);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+* ::selection {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: var(--font-cinzel);
+}
+
+p,
+button,
+li,
+a {
+  font-family: var(--font-montserrat);
+}
+
+button {
+  cursor: pointer;
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
