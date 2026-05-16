@@ -18,7 +18,7 @@ export default function FinalCtaSection() {
             </h2>
           </div>
 
-          <div className="mb-4 flex w-full max-w-[260px] flex-col items-stretch gap-4">
+          <div className="mx-auto mb-4 flex w-full max-w-[260px] flex-col items-stretch gap-4">
             <PrimaryButton text="Comprar ahora" />
             <PrimaryButton text="Comprar pack 20" variant="primary" />
           </div>
