@@ -10,8 +10,8 @@ interface ProductCardProps {
 
 export function ProductCard({ image, title, description, buttonLabel }: ProductCardProps) {
   return (
-    <article className="group flex flex-col items-center rounded bg-white p-6 text-center shadow">
-      <header className="relative mb-6 flex h-64 w-full items-center justify-center lg:h-72">
+    <article className="group flex h-full min-h-[340px] flex-col rounded bg-white p-6 text-center shadow">
+      <header className="relative mb-6 flex h-[100px] w-full items-center justify-center">
         <Image
           src={image}
           alt={title}
@@ -28,7 +28,9 @@ export function ProductCard({ image, title, description, buttonLabel }: ProductC
           {description}
         </p>
 
-        <PrimaryButton text={buttonLabel} variant="card" />
+        <div className="mt-auto">
+          <PrimaryButton text={buttonLabel} variant="card" />
+        </div>
       </main>
     </article>
   )
