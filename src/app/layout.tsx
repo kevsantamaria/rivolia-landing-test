@@ -29,7 +29,7 @@ export default function RootLayout({
       lang="es"
       className={`${cinzel.variable} ${montserrat.variable} scroll-smooth antialiased`}
     >
-      <body>
+      <body className="overflow-x-hidden">
         <Header />
         {children}
       </body>
